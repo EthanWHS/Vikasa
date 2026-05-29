@@ -1,0 +1,35 @@
+.home-callout{
+width:300px
+}
+.about-image1{
+position:relative;
+left:135px
+}
+.book-consult{
+text-transform:none;
+}
+.contact-us:hover {
+   transform: scale(1.05);
+   transition: all 0.3s ease;
+}
+form-button{
+border-radius:32px;
+}
+@media (max-width: 782px) {
+    .transform {
+        max-width:100% !important;
+    }
+}
+.form{
+color:white !important;
+}  
+.problem-card{
+min-height: 470px;
+}
+
+
+/* inside styling */
+.rounded-inside-p {
+	border-radius: 12px;
+    padding: var(--wp--preset--spacing--50);
+}
