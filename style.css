@@ -113,6 +113,20 @@ min-height: 470px;
   margin-bottom: 4px !important;
 }
 
+/* Header Items */
+
+.header-width {
+max-width:100%!important;
+width:100%!important;
+margin:auto!important;
+
+}
+.force-last-drop .wp-container-core-group-is-layout-7387b849 {
+flex: 1 1 auto!important;
+max-width:90%!important;
+margin-left:5%!important;
+} 
+
 .exp-card h5, .sb-1c h5{
   font-size: 18px !important;
   font-weight: 500 !important;
