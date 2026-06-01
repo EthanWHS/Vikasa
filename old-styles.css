@@ -1,0 +1,132 @@
+.home-callout{
+width:300px
+}
+.about-image1{
+position:relative;
+left:135px
+}
+.book-consult{
+text-transform:none;
+}
+.contact-us:hover {
+   transform: scale(1.05);
+   transition: all 0.3s ease;
+}
+form-button{
+border-radius:32px;
+}
+@media (max-width: 782px) {
+    .transform {
+        max-width:100% !important;
+    }
+}
+.form{
+color:white !important;
+}  
+.problem-card{
+min-height: 470px;
+}
+
+
+/* inside styling */
+.rounded-inside-p {
+	border-radius: 12px;
+    padding: var(--wp--preset--spacing--50);
+}
+
+/* From Ihor */
+
+/* WPForms Submit Button Styling */
+.wpforms-form button[type=submit],
+.wpforms-form input[type=submit] {
+    background-color: #731228 !important; /* Button color */
+  
+    color: #fff !important;
+    border-radius: 32px !important; /* Rounded corners */
+    padding: 12px 24px !important;
+    transition: background-color 0.4s ease, transform 0.4s ease; /* Slower hover */
+}
+
+/* Hover effect */
+.wpforms-form button[type=submit]:hover,
+.wpforms-form input[type=submit]:hover {
+    background-color: #000000 !important;
+		border-color: #000000;
+			/* Hover color */
+    transform: translateY(-2px); /* Optional subtle lift */
+}
+@media (max-width: 782px) {
+    .force-last-drop {
+        flex-wrap: wrap;
+    }
+
+    /* Target the last item specifically to fill the row */
+    .force-last-drop > *:last-child {
+        flex-basis: 100% !important;
+        width: 100% !important;
+    }
+}
+@media (min-width: 1025px) {
+  .pad-80 { padding: 20px 80px 0px 140px !important; }
+  .pad-20 { padding: 20px !important; }
+  .pad-90 { padding: 50px 0px 0px 120px !important; }
+}
+
+/* Mobile */
+@media (max-width: 1024px) {
+  .pad-80,
+  .pad-20,
+  .pad-90 {
+    padding-left: 10px !important; /* or whatever you want on mobile */
+  }
+}
+
+/* Services (expertise) */
+
+.wp-block-columns.expertise-grid, .service-4col {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 16px !important;
+  flex-wrap: unset !important; 
+  background: transparent !important;
+}
+.wp-block-columns.expertise-grid > .wp-block-column, .service-4col > .wp-block-column{
+  flex: unset !important;
+  min-width: 0 !important;
+}
+.wp-block-column.exp-card, .sb-1c {
+  background: #fff !important;
+  border: 1px solid #e0d9cd !important;
+  border-radius: 10px !important;
+  padding: 28px 24px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+  transition: background .2s !important;
+}
+.exp-card:hover,.sb-1c:hover {
+  background: #f5f0e8 !important;
+}
+.exp-card .exp-svg, .sb-1c .exp-svg {
+  display: block !important;
+  width: 44px !important;
+  height: 44px !important;
+  margin-bottom: 4px !important;
+}
+
+.exp-card h5, .sb-1c h5{
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 1.2 !important;
+  margin: 0 !important;
+}
+.exp-card p, .sb-1c p {
+  font-size: 14px !important;
+  line-height: 1.55 !important;
+  margin: 0 !important;
+}
+@media (max-width: 768px) {
+  .wp-block-columns.expertise-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
