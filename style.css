@@ -1,5 +1,3 @@
-/* New Sitewide Editor Styles */
-
 :where(.wp-site-blocks *:focus){
 outline-width:2px;
 outline-style:solid
@@ -48,4 +46,27 @@ font-size:16px!important;
 body.page-id-856 .problems-band {  
   padding-top:24px!important;
   font-size: 120%!important;
+}
+.wp-container-core-group-is-layout-f474cb51 {
+background:#9DA692!important;
+position:relative!important;
+margin-top:-100%important;
+border:none!important;
+}
+.wp-block-search__button {
+margin-left:0px!important;
+}
+
+form.wp-block-search {
+text-align:right!Important;
+}
+
+input.wp-block-search__input {
+flex-grow:0!important;
+width:300px!Important
+}
+
+body.home form.wp-block-search {
+margin-right:0px!important;
+margin-left:85%!important;
 }
