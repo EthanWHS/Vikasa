@@ -63,10 +63,49 @@ text-align:right!Important;
 
 input.wp-block-search__input {
 flex-grow:0!important;
-width:300px!Important
 }
 
 body.home form.wp-block-search {
 margin-right:0px!important;
 margin-left:85%!important;
+}
+
+/* testimonial */
+.testimonial{
+    padding:120px 0;
+     background:var(--stone)
+}
+
+.testimonial blockquote {
+width:80%!Important;
+max-width:90%!Important;
+}
+
+ .wp-block-cb-carousel-v2 h3.wp-block-accordion-heading button span{
+padding-bottom:75px;
+}
+
+.testimonial blockquote p, .testimonial .wp-block-cb-carousel-v2 h3.wp-block-accordion-heading button span {
+font-family:var(--display);
+font-size:18pt!important;
+line-height:1.25;
+text-decoration:none!important;
+font-style:italic!important;
+letter-spacing:-0.015em;
+color:var(--graphite);
+font-weight:400;
+font-style:italic;
+max-width:90%!important;
+min-height:200px!important;
+margin:0 auto!important;
+text-align:center!important;
+}
+
+.testimonial blockquote p {
+font-size:24pt!important;
+}
+
+.testimonial-slide {
+   padding:50px!important;
+   border-radius:20px!important;
 }
